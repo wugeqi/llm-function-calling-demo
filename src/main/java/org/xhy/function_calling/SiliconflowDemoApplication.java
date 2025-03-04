@@ -4,6 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
+ * Xhy
  * SiliconFlow Function Calling 示例应用程序
  * 演示如何使用大模型的 Function Calling 功能实现天气查询
  */
