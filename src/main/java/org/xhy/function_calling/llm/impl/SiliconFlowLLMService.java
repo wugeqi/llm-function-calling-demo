@@ -27,13 +27,14 @@ public class SiliconFlowLLMService implements LLMService {
     private final RestTemplate restTemplate;
     private final ToolRegistry toolRegistry;
 
-    @Value("${siliconflow.api.url}")
+    @Value("${llm.api.url}")
     private String apiUrl;
 
-    @Value("${siliconflow.api.token}")
+    @Value("${llm.api.token}")
     private String apiToken;
 
-    @Value("${siliconflow.api.model:Qwen/Qwen2.5-72B-Instruct-128K}")
+
+    @Value("${llm.api.model:Qwen/Qwen2.5-7B-Instruct}")
     private String model;
 
     public SiliconFlowLLMService(RestTemplate restTemplate, ToolRegistry toolRegistry) {
