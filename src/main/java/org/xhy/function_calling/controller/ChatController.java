@@ -11,7 +11,6 @@ import org.xhy.function_calling.tool.ToolCallProcessor;
 import java.util.Map;
 
 /**
- * 聊天控制器
  * 提供统一的聊天接口，支持工具调用
  */
 @RestController
